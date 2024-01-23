@@ -25,7 +25,7 @@ https://github.com/osrf/gazebo_models 다운 후 ./gazebo/models에 복사
  1) roslaunch final_project costa_launch.launch            #costa카페 월드 열기
  2) roslaunch final_project put_robot_in_world.launch      #지정된 위치로 로봇 배치
  3) roslaunch final_project gmapping.launch                #mapping node  (*이미 맵을 만들었으니 사용할일 x)
- 4) roslaunch final_project acml.launch                    #localization node 
+ 4) roslaunch final_project amcl.launch                    #localization node 
  5) roslaunch final_project navigation.launch              #전체 navigation 진행. (path planning 담당분이 여기에 추가해주시면 됩니다)
 
  
