@@ -13,9 +13,14 @@ resolution: 0.05
 static:
     map_topic: /map
     subscribe_to_updates: true
+    track_unknown_space: true
+    known_cost_value: 255
+
 
 obstacles_laser:
     observation_sources: laser
+    track_unknown_space: true
+    known_cost_value: 255
     laser: {data_type: LaserScan, clearing: true, marking: true, topic: scan, inf_is_valid: true, obstacle_range: 5.5}
 
 inflation:
