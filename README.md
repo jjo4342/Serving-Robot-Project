@@ -23,6 +23,7 @@ https://github.com/osrf/gazebo_models 다운 후 ./gazebo/models에 복사
  1) roslaunch final_project costa_launch.launch            
  2) roslaunch final_project navigation.launch              
  3) roslaunch final_project start_follow_waypoints.launch
+ 4) rosrun final_project waypoint_publisher.py
 
 
 
